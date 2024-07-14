@@ -105,13 +105,13 @@ Instructions on how to set it up are on the repository.
 
 -   visit [http://localhost/docs/index.html/](http://localhost/docs/index.html/) to see the api documentation in action.
 
-### Alternatively
 
-Use the api endpoints on a tool like postman to create a website, use the websites id to create a post, create a subscription.Fololowing which you can use the command 
 
-   ```bash
-    php artisan app:send-post-notifications 
-   ```
+To interact with the API, you can use a tool like Postman. Start by creating a website using the relevant API endpoint. Once the website is created, take note of the returned website ID, as you will use this to create a new post. After creating a post, you can proceed to create a subscription by using the website ID.
 
-to send out notifications.
+After setting up posts and subscriptions, execute the following command to send out notifications to all subscribers:
+
+```bash
+php artisan app:send-post-notifications
+```
 
