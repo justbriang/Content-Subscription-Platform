@@ -111,7 +111,7 @@ Use the api endpoints on a tool like postman to create a website, use the websit
 
    ```bash
     php artisan app:send-post-notifications 
-    ```
+   ```
 
 to send out notifications.
 
