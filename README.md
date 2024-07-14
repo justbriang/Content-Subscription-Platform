@@ -87,7 +87,7 @@ Instructions on how to set it up are on the repository.
 -  Generate API Documentation
 
     ```bash
-    composer require knuckleswtf/scribe
+    composer require --dev knuckleswtf/scribe
     ```
 
 -  Publish the config file by running:
