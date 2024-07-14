@@ -87,21 +87,19 @@ Instructions on how to set it up are on the repository.
 -  Generate API Documentation
 
     ```bash
-  composer require knuckleswtf/scribe
-
+    composer require knuckleswtf/scribe
     ```
 
 -  Publish the config file by running:
 
     ```bash
-php artisan vendor:publish --tag=scribe-config
-
+    php artisan vendor:publish --tag=scribe-config
     ```
 
 -  Generate API Documentation
 
     ```bash
-   php artisan scribe:generate
+    php artisan scribe:generate
 
     ```
 
@@ -112,7 +110,7 @@ php artisan vendor:publish --tag=scribe-config
 Use the api endpoints on a tool like postman to create a website, use the websites id to create a post, create a subscription.Fololowing which you can use the command 
 
    ```bash
-  php artisan app:send-post-notifications 
+    php artisan app:send-post-notifications 
     ```
 
 to send out notifications.
