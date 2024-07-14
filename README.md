@@ -103,7 +103,7 @@ Instructions on how to set it up are on the repository.
 
     ```
 
--   visit [http://localhost/docs/index.html/](http://localhost/docs/index.html/) to see the api documentation in action.
+-   visit [http://localhost:8000/docs/index.html/](http://localhost/docs/index.html/) to see the api documentation in action.
 
 
 
